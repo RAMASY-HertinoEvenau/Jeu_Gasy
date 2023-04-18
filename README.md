@@ -1,7 +1,7 @@
 # Jeu_Gasy
 Nom : RAMASY Hertino Evenau
 Classe : IGGLIA 3A
-Muméro : 70
+Numéro : 70
 Lien live projet : https://ramasy-hertinoevenau.github.io/Jeu_Gasy/
 
 -----------------------------------$$$$$$$ MODE DE JEU $$$$$$$-----------------------------------
