@@ -90,7 +90,6 @@ function etape2(val, place, couleurPlace) {
     }
     else {
         if(joueur == 0) {
-            //pionSelectionner = positionVoisin(val);
             val1 = val;
             cpt--;
             joueur = 1;
@@ -168,32 +167,6 @@ function positionVoisin(val1, val) {
             break;
     }
 }
-
-/*function pionSelectionner(val) {
-    var val = val;
-    switch(val) {
-        case 'a1' :
-            return mat[0][0];
-        case 'a2' :
-            return mat[0][1];
-        case 'a3' :
-            return mat[0][2];
-        case 'b1' :
-            return mat[1][0];
-        case 'b2' :
-            return mat[1][1];
-        case 'b3' :
-            return mat[1][2];
-        case 'c1' :
-            return mat[2][0];
-        case 'c2' :
-            return mat[2][1];
-        case 'c3' :
-            return mat[2][2];
-        default :
-            break;
-    }
-}*/
 
 function placemenPionMatrice(val, nbr) {
     var val = val;
