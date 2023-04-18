@@ -110,11 +110,6 @@ function placePion(val, nbr) {
         default :
             break;
     }
-    for(let i = 0 ; i < mat.length ; i++) {
-        for(let j = 0 ; j < mat.length ; j++) {
-            console.log(mat[i][j]);
-        }
-    }
 }
 
 function casPossible() {
@@ -146,32 +141,3 @@ function casPossible() {
         return false;
     }
 }
-
-
-
-//console.log();
-        /*switch(val) {
-            case 'a1' :
-                if(do)
-                break;
-            case 'a1' :
-                break;
-            case 'a2' :
-                break;
-            case 'a3' :
-                break;
-            case 'b1' :
-                break;
-            case 'b2' :
-                break;
-            case 'b3' :
-                break;
-            case 'c1' :
-                break;
-            case 'c2' :
-                break;
-            case 'c3' :
-                break;
-            default :
-                break
-        }*/
