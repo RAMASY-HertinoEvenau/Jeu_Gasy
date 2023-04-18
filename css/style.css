@@ -1,0 +1,282 @@
+body {
+	position: absolute;
+	background-color: rgba(165,235,228,1);
+	overflow: hidden;
+
+}
+#Rectangle_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 500px;
+	left: 400px;
+	top: 90px;
+}
+#Ligne_1 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_1 {
+	overflow: visible;
+	position: absolute;
+	width: 5px;
+	height: 500px;
+	left: 650.5px;
+	top: 90.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ligne_2 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_2 {
+	overflow: visible;
+	position: absolute;
+	width: 500px;
+	height: 5px;
+	left: 400.5px;
+	top: 340.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ligne_3 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_3 {
+	overflow: visible;
+	position: absolute;
+	width: 498.532px;
+	height: 497.539px;
+	left: 402px;
+	top: 92px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ligne_4 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_4 {
+	overflow: visible;
+	position: absolute;
+	width: 498.532px;
+	height: 497.539px;
+	left: 400px;
+	top: 93px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#nouvellePartie {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.nouvellePartie {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 148px;
+	top: 36px;
+}
+#nombreJoueur {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.nombreJoueur {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 21px;
+	top: 36px;
+}
+#a1 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.a1 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 378px;
+	top: 65px;
+}
+#a2 {
+	fill: rgba(255, 255, 255, 0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.a2 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 626px;
+	top: 69px;
+}
+#a3 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.a3 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 873px;
+	top: 69px;
+}
+#b1 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.b1 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 378px;
+	top: 315px;
+}
+#b2 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.b2 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 625px;
+	top: 315px;
+}
+#b3 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.b3 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 875px;
+	top: 315px;
+}
+#c1 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.c1 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 378px;
+	top: 562px;
+}
+#c2 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.c2 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 625px;
+	top: 562px;
+}
+#c3 {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(112,112,112,0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.c3 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 876px;
+	top: 562px;
+}
